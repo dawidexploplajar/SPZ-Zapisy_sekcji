@@ -91,7 +91,7 @@
 
   @media (max-width: 1024px) {
     flex-direction: column;
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -122,7 +122,7 @@
     background: var(--social-bg);
     display: flex;
     padding: 6px 12px;
-    align-items: center;
+    align-items: left;
     gap: 8px;
     text-decoration: none;
     transition: box-shadow 0.3s;
@@ -147,7 +147,7 @@
 
     a {
       width: 100%;
-      justify-content: center;
+      justify-content: left;
       box-sizing: border-box;
     }
   }
